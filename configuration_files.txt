@@ -1,0 +1,9 @@
+Example structure:
+
+
+a) layers.conf file
+index|layer_name|processing_type(serial/concurrent)|delay_after_start|max-retries|seconds-between-retries|seconds-between-commands
+
+
+b) processes.conf file
+layer_name|process|hostname|start-command|stop-command(optional)
